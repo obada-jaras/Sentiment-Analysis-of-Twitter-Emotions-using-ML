@@ -7,7 +7,14 @@ This project code implements sentiment analysis on Twitter data using machine le
 <br>
 
 ## **Table of Contents**
-- 
+- [**Overview**](#overview)
+  - [**Data**](#data)
+  - [**Features Extraction**](#features-extraction)
+  - [**Pre-processing Data**](#pre-processing-data)
+  - [**Machine Learning Models**](#machine-learning-models)
+  - [**Evaluation**](#evaluation)
+- [**Prerequisites**](#prerequisites)
+- [**Usage**](#usage)
 
 <br>
 <hr>
@@ -96,13 +103,13 @@ To evaluate the performance of the models, we use several evaluation metrics, in
 <br>
 
 
-| Model | Execution Time | Accuracy | Precision | Recall | F-measure | Confusion Matrix |
-|-------|----------------|----------|----------|--------|----------|------------------|
-| Random Forest | 3.8s | 0.8856659059118015 | 0.8857288463426933 | 0.8856659059118015 | 0.8856338009882809 | [[5790  834]<br>[719 6240]] |
-| XGBoost | 2.1s | 0.8635058529043658 | 0.8635123373424456 | 0.8635058529043658 | 0.8634834413694568 | [[5660  964]<br>[890 6069]] |
-| MLP | 5m 9.1s | 0.8614444526246043 | 0.8614892148026398 | 0.8614444526246043 | 0.8614551589051935 | [[5708  916]<br>[966 5993]] |
-| KNN | 9.1s | 0.7963631009349923 | 0.7969107407291351 | 0.7963631009349923 | 0.7963882673390669 | [[5361 1263]<br>[1503 5456]] |
-| Naive Bayes | 0.5s | 0.783626592063609 | 0.8278724586210388 | 0.783626592063609 | 0.7747507496508554 | [[3891 2733]<br>[206 6753]] |
+| Model | Execution Time | Accuracy | Precision | Recall | F-measure |
+|-------|----------------|----------|----------|--------|----------|
+| Decision Tree | 3.8s | 0.8857 | 0.8857 | 0.8857 | 0.8856 |
+| XGBoost | 2.1s | 0.8635 | 0.8635 | 0.8635 | 0.8635 |
+| MLP | 5m 9.1s | 0.8614 | 0.8615 | 0.8614 | 0.8615 |
+| KNN | 9.1s | 0.7964 | 0.7969 | 0.7964 | 0.7964 |
+| Naive Bayes | 0.5s | 0.7836 | 0.8279 | 0.7836 | 0.7748 |
 
 <br>
 <hr>
